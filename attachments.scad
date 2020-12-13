@@ -663,9 +663,9 @@ function attachment_is_shown(tags) =
 //   .
 //   If `$attach_to` is defined, as a consequence of `attach(from,to)`, then
 //   the following transformations are performed in order:
-//   * Translates this part so it's anchor position matches the parent's anchor position.
-//   * Rotates this part so it's anchor direction vector exactly opposes the parent's anchor direction vector.
-//   * Rotates this part so it's anchor spin matches the parent's anchor spin.
+//   * Translates this part so its anchor position matches the parent's anchor position.
+//   * Rotates this part so its anchor direction vector exactly opposes the parent's anchor direction vector.
+//   * Rotates this part so its anchor spin matches the parent's anchor spin.
 //
 // Arguments:
 //   anchor = Translate so anchor point is at origin (0,0,0).  See [anchor](attachments.scad#anchor).  Default: `CENTER`
@@ -762,9 +762,9 @@ function reorient(
 //   for the anchor points referred to by `from` and `to` are fetched,
 //   which will include position, direction, and spin.  With that info,
 //   the following transformations are performed:
-//   * Translates this part so it's anchor position matches the parent's anchor position.
-//   * Rotates this part so it's anchor direction vector exactly opposes the parent's anchor direction vector.
-//   * Rotates this part so it's anchor spin matches the parent's anchor spin.
+//   * Translates this part so its anchor position matches the parent's anchor position.
+//   * Rotates this part so its anchor direction vector exactly opposes the parent's anchor direction vector.
+//   * Rotates this part so its anchor spin matches the parent's anchor spin.
 //
 // Arguments:
 //   anchor = Translate so anchor point is at origin (0,0,0).  See [anchor](attachments.scad#anchor).  Default: `CENTER`
